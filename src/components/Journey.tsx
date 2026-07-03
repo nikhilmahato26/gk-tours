@@ -9,25 +9,13 @@ export default function Journey() {
       title: "Doctorate in Vedic Astrology",
       institution: "Jyotishya Vachaspati / Doctoral Fellowship",
       period: "Research Focus: Astro-Meteorology & Precise Degrees",
-      desc: "Advanced research on integration of planetary degrees with modern safety risks and environmental outcomes.",
+      desc: "Advanced research on integration of planetary degrees with cosmic sciences, life paths, and personal destiny cycles.",
     },
     {
       title: "Post Graduate Diploma in Vedic Astrology",
       institution: "Vedic Astrology Institute",
       period: "Specialization: Parashara & KP Systems",
       desc: "Rigorous training in mathematical computation, planetary strengths (Shadbala), and directional dasha charts.",
-    },
-    {
-      title: "Master of Business Administration (MBA)",
-      institution: "Post Graduate Business School",
-      period: "Management & Risk Planning",
-      desc: "Focus on corporate strategy, risk analysis, and human behavior management.",
-    },
-    {
-      title: "Graduate in Environmental Science",
-      institution: "University Science Department",
-      period: "Scientific Methodologies",
-      desc: "Laying the foundation for a research-driven, rational, and physics-aligned approach to cosmic sciences.",
     },
     {
       title: "Continuous Research Programs",
@@ -39,27 +27,15 @@ export default function Journey() {
 
   const experience = [
     {
-      title: "Manager - Safety (HSE)",
-      company: "Adarsh Developers",
-      period: "Current",
-      desc: "Overseeing industrial safety compliance, risk assessments, structural health hazard audits, and emergency protocols in large-scale residential and commercial infrastructure projects.",
-    },
-    {
-      title: "20 Years of HSE Professional Experience",
-      company: "Various Corporate Groups",
-      period: "Past 2 Decades",
-      desc: "Specialist in analyzing hazards, predicting project safety issues, and formulating mitigation strategies - skillsets directly imported into detailed astrological risk forecasts.",
-    },
-    {
-      title: "Astrological Consultant",
+      title: "Senior Astrological Consultant",
       company: "Astroyogi, Astro Varta & Astrotalk",
       period: "10+ Years Active",
-      desc: "Serving thousands of global clients on premier digital platforms, maintaining 4.8+ ratings for precise timelines and practical advices.",
+      desc: "Serving thousands of global clients on premier digital platforms, maintaining 4.8+ ratings for precise timelines and practical advice.",
     },
     {
       title: "Independent Offline Consultancy",
       company: "GK Astrotech Office & Home Studios",
-      period: "Ongoing",
+      period: "15+ Years Active",
       desc: "Private personal consultation for CEOs, political figures, entrepreneurs, and families seeking high-end Vedic and Vastu planning.",
     },
   ];
@@ -81,7 +57,7 @@ export default function Journey() {
           </h2>
           <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gold-royal to-transparent mx-auto mt-4" />
           <p className="font-sans text-xs md:text-sm text-gold-ivory/60 mt-4 leading-relaxed max-w-xl mx-auto">
-            A rare intersection of corporate risk management and classical Vedic scholarship, bringing absolute reliability to every prediction.
+            A rare intersection of analytical logic and classical Vedic scholarship, bringing absolute reliability to every prediction.
           </p>
         </div>
 

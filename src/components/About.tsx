@@ -13,8 +13,8 @@ export default function About() {
     },
     {
       icon: ShieldCheck,
-      title: "HSE Professionalism",
-      desc: "20+ years of corporate health, safety & environment experience mapping to ethical consultations.",
+      title: "Ethical Practice",
+      desc: "Upholding absolute confidentiality and high ethical standards in all personal consultations.",
     },
     {
       icon: Scale,
@@ -102,13 +102,11 @@ export default function About() {
                 Pandit Gangadhar Kotagi inherited a deep, ancestral relationship with celestial alignments and Vedic literature from his childhood.
               </p>
               <p>
-                However, his approach is far from typical. Parallel to his extensive studies in astrology, he is a senior 
-                <strong> Environmental Health & Safety (HSE) professional</strong> with over two decades of experience in high-standard safety engineering and project execution (currently serving as Safety Manager at Adarsh Developers).
+                However, his approach is far from typical. Parallel to his extensive studies in astrology, he applies rigorous observation, risk assessment, and analytical systems to astrological calculations.
               </p>
               <p>
-                This dual expertise defines his consultancies. Gangadhar applies the same rigorous observation, risk assessment, 
-                and analytical systems from his HSE career to astrological calculations. By utilizing 
-                <span className="text-gold-warm font-semibold"> exact planetary degree positions</span> rather than broad zodiac generalized forecasts, he outlines your chart with scientific, mathematical clarity.
+                By utilizing{" "}
+                <span className="text-gold-warm font-semibold">exact planetary degree positions</span> rather than broad zodiac generalized forecasts, he outlines your chart with scientific, mathematical clarity.
               </p>
             </motion.div>
 

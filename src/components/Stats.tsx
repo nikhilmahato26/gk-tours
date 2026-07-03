@@ -12,10 +12,10 @@ export default function Stats() {
       desc: "Dedicated Vedic calculation",
     },
     {
-      value: "20+",
-      label: "Professional Experience",
+      value: "15+",
+      label: "Specializations",
       icon: Calendar,
-      desc: "Environmental Safety (HSE) & Astrology",
+      desc: "Vedic, KP, Vastu, Palmistry & more",
     },
     {
       value: "1000+",

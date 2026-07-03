@@ -26,7 +26,7 @@ export default function Awards() {
     {
       title: "Dr APJ Abdul Kalam Nation Star Award",
       issuer: "National Welfare Association",
-      desc: "Recognizing combined social contributions in occupational safety (HSE) and ancient sciences.",
+      desc: "Recognizing outstanding social contributions and promotion of ancient sciences.",
       icon: Medal,
       year: "2023",
     },

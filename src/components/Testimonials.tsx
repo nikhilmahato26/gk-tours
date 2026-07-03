@@ -20,7 +20,7 @@ export default function Testimonials() {
     {
       text: "Excellent service. He explained my planetary blockages and recommended simple, cost-free lifestyle modifications and sound therapies. I felt immediate changes in my workplace clarity. Accurate timing and detailed explanations.",
       author: "Rajesh Sekhar",
-      role: "Senior Safety Lead, Infrastructure Group",
+      role: "Senior Project Manager, Infrastructure Group",
       title: "Accurate timing & detailed explanation",
     },
     {
@@ -55,7 +55,7 @@ export default function Testimonials() {
           </h2>
           <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gold-royal to-transparent mx-auto mt-4" />
           <p className="font-sans text-xs md:text-sm text-gold-ivory/60 mt-4 leading-relaxed">
-            Read how Pandit Gangadhar Kotagi's degree-based calculations and corporate safety mindset help leaders achieve clarity.
+            Read how Pandit Gangadhar Kotagi's degree-based calculations and analytical mindset help leaders achieve clarity.
           </p>
         </div>
 
