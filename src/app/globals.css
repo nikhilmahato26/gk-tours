@@ -1,26 +1,161 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-inter), sans-serif;
+  --font-serif: var(--font-cormorant), serif;
+  --font-display: var(--font-cinzel), serif;
+  --font-script: var(--font-great-vibes), cursive;
+
+  --color-gold-royal: #C8A24C;
+  --color-gold-warm: #E4C06A;
+  --color-gold-ivory: #FAF8F2;
+  --color-dark-pure: #080808;
+  --color-dark-navy: #101827;
+  --color-dark-cosmic: #0B0F19;
+  --color-purple-accent: #3B1C5D;
+  --color-blue-accent: #0D1E3D;
+
+  --animate-spin-slow: spin 60s linear infinite;
+  --animate-spin-reverse-slow: spin-reverse 75s linear infinite;
+  --animate-pulse-slow: pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Custom styles for luxury astrology site */
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(16, 24, 39, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(200, 162, 76, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(16, 24, 39, 0.8);
+  border-color: rgba(228, 192, 106, 0.35);
+  box-shadow: 0 12px 40px 0 rgba(200, 162, 76, 0.08);
+  transform: translateY(-6px);
+}
+
+/* Glowing text effects */
+.text-glow-gold {
+  text-shadow: 0 0 12px rgba(228, 192, 106, 0.4);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 18px rgba(139, 92, 246, 0.25);
+}
+
+/* Gold Gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FAF8F2 0%, #E4C06A 50%, #C8A24C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #C8A24C 0%, #E4C06A 50%, #FAF8F2 100%);
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(180deg, #080808 0%, #101827 50%, #080808 100%);
+}
+
+/* Star Background styles */
+.star-bg {
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.6) 1.5px, transparent 1.5px),
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.4) 1px, transparent 1px),
+    radial-gradient(circle at 80% 60%, rgba(255, 255, 255, 0.5) 1.2px, transparent 1.2px);
+  background-size: 400px 400px, 250px 250px, 300px 300px;
+  background-position: 0 0, 80px 120px, 220px 50px;
+  animation: star-movement 150s linear infinite;
+}
+
+@keyframes star-movement {
+  from {
+    background-position: 0 0, 80px 120px, 220px 50px;
+  }
+  to {
+    background-position: 400px 400px, 330px 370px, 520px 350px;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border: 2px solid #080808;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A24C;
+}
+
+/* Decorative Gold Borders */
+.gold-border-top {
+  position: relative;
+}
+.gold-border-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(200, 162, 76, 0.5), transparent);
+}
+
+.gold-border-bottom {
+  position: relative;
+}
+.gold-border-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(200, 162, 76, 0.5), transparent);
+}
+
+/* Nebula radial gradients */
+.nebula-purple {
+  background: radial-gradient(circle at 10% 25%, rgba(59, 28, 93, 0.18) 0%, transparent 60%);
+}
+
+.nebula-blue {
+  background: radial-gradient(circle at 90% 75%, rgba(13, 30, 61, 0.22) 0%, transparent 70%);
 }
