@@ -18,7 +18,7 @@ export default function Stats() {
       desc: "Vedic, KP, Vastu, Palmistry & more",
     },
     {
-      value: "1000+",
+      value: "50k+",
       label: "Consultations Completed",
       icon: Users,
       desc: "Trusted worldwide guidance",

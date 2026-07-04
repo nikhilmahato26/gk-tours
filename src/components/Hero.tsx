@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[linear-gradient(rgba(200,162,76,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(200,162,76,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-0" />
 
       <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
-        
+
         {/* Left Content (Text) */}
         <div className="lg:col-span-7 flex flex-col justify-center text-left">
           <motion.div
@@ -84,7 +84,7 @@ export default function Hero() {
 
         {/* Right Content (Image & Rotating Zodiac Wheel) */}
         <div className="lg:col-span-5 relative flex items-center justify-center h-[400px] sm:h-[500px] lg:h-[600px] w-full">
-          
+
           {/* Rotating Zodiac SVG Background Wheel */}
           <motion.div
             animate={{ rotate: 360 }}
@@ -103,7 +103,7 @@ export default function Hero() {
               <circle cx="50" cy="50" r="45" strokeDasharray="1, 1" />
               <circle cx="50" cy="50" r="38" />
               <circle cx="50" cy="50" r="28" strokeDasharray="2, 1" />
-              
+
               {/* Lines / Segments */}
               {[...Array(12)].map((_, i) => {
                 const angle = (i * 30 * Math.PI) / 180;
@@ -152,13 +152,14 @@ export default function Hero() {
           >
             <div className="relative w-full h-full rounded-t-full overflow-hidden bg-dark-navy">
               <Image
-                src="/images/pandit.png"
-                alt="Pandit Gangadhar Kotagi"
+                src="/images/pandit_new.jpeg"
+                alt="Dr. Gangadhar Kotagi"
                 fill
                 priority
+                unoptimized
                 className="object-cover object-top filter brightness-95"
               />
-              
+
               {/* Vignette Shadow Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-dark-pure via-transparent to-transparent opacity-80" />
             </div>
