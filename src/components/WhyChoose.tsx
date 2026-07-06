@@ -61,7 +61,7 @@ export default function WhyChoose() {
             The Astrotech Difference
           </span>
           <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight text-gold-ivory mt-2">
-            Why Choose Pandit Gangadhar
+            Why Choose Dr. Pandit Gangadhar
           </h2>
           <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gold-royal to-transparent mx-auto mt-4" />
           <p className="font-sans text-xs md:text-sm text-gold-ivory/60 mt-4 leading-relaxed">

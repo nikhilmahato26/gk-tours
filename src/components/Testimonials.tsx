@@ -6,7 +6,7 @@ import { Star, Quote } from "lucide-react";
 export default function Testimonials() {
   const reviews = [
     {
-      text: "Coming from a technology background, I was highly skeptical of astrology. Pandit Gangadhar changed my perspective completely. His calculations are mathematical, precise, and have zero superstition. Highly logical recommendations.",
+      text: "Coming from a technology background, I was highly skeptical of astrology. Dr. Pandit Gangadhar changed my perspective completely. His calculations are mathematical, precise, and have zero superstition. Highly logical recommendations.",
       author: "Aditya Hegde",
       role: "VP Engineering, Fintech Corp",
       title: "Changed my perspective completely",
@@ -55,7 +55,7 @@ export default function Testimonials() {
           </h2>
           <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-gold-royal to-transparent mx-auto mt-4" />
           <p className="font-sans text-xs md:text-sm text-gold-ivory/60 mt-4 leading-relaxed">
-            Read how Pandit Gangadhar Kotagi's degree-based calculations and analytical mindset help leaders achieve clarity.
+            Read how Dr. Pandit Gangadhar Kotagi's degree-based calculations and analytical mindset help leaders achieve clarity.
           </p>
         </div>
 

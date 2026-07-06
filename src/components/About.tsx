@@ -86,7 +86,7 @@ export default function About() {
                 Bridging Science & Spirit
               </span>
               <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight text-gold-ivory mt-2 mb-6">
-                About Pandit Gangadhar Kotagi
+                About Dr. Pandit Gangadhar Kotagi
               </h2>
             </motion.div>
 
@@ -99,7 +99,7 @@ export default function About() {
             >
               <p>
                 Raised in a traditional and devout family of traditional astrologers and almanac (Panchanga) editors, 
-                Pandit Gangadhar Kotagi inherited a deep, ancestral relationship with celestial alignments and Vedic literature from his childhood.
+                Dr. Pandit Gangadhar Kotagi inherited a deep, ancestral relationship with celestial alignments and Vedic literature from his childhood.
               </p>
               <p>
                 However, his approach is far from typical. Parallel to his extensive studies in astrology, he applies rigorous observation, risk assessment, and analytical systems to astrological calculations.

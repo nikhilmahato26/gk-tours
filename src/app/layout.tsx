@@ -30,12 +30,12 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Pandit Gangadhar Kotagi | Renowned Vedic Astrologer & Spiritual Consultant",
-  description: "Experience scientific Vedic astrology calculations, exact planetary degree analysis, and ethical spiritual guidance by Pandit Gangadhar Kotagi. Over 20 years of professional experience.",
-  keywords: ["Vedic Astrology", "Astrologist", "Pandit Gangadhar Kotagi", "Horoscope Analysis", "KP System", "Vastu Shastra", "Scientific Astrology"],
+  title: "Dr. Pandit Gangadhar Kotagi | Renowned Vedic Astrologer & Spiritual Consultant",
+  description: "Experience scientific Vedic astrology calculations, exact planetary degree analysis, and ethical spiritual guidance by Dr. Pandit Gangadhar Kotagi. Over 20 years of professional experience.",
+  keywords: ["Vedic Astrology", "Astrologist", "Dr. Pandit Gangadhar Kotagi", "Horoscope Analysis", "KP System", "Vastu Shastra", "Scientific Astrology"],
   openGraph: {
-    title: "Pandit Gangadhar Kotagi | Renowned Vedic Astrologer & Spiritual Consultant",
-    description: "Experience scientific Vedic astrology calculations, exact planetary degree analysis, and ethical spiritual guidance by Pandit Gangadhar Kotagi.",
+    title: "Dr. Pandit Gangadhar Kotagi | Renowned Vedic Astrologer & Spiritual Consultant",
+    description: "Experience scientific Vedic astrology calculations, exact planetary degree analysis, and ethical spiritual guidance by Dr. Pandit Gangadhar Kotagi.",
     type: "website",
     locale: "en_IN",
   }

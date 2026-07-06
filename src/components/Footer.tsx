@@ -114,7 +114,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="font-sans text-[10px] text-gold-ivory/40 tracking-wider text-center md:text-left font-light leading-relaxed">
             &copy; {new Date().getFullYear()} GK Astrotech. All Rights Reserved. <br className="sm:hidden" />
-            Developed for Pandit Gangadhar Kotagi.
+            Developed for Dr. Pandit Gangadhar Kotagi.
           </p>
 
           <div className="flex items-center gap-1 text-gold-warm/40">

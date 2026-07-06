@@ -335,7 +335,7 @@ export default function BookingForm({
                     Submit Another Booking
                   </button>
                   <a
-                    href="https://wa.me/919945601286?text=Hi%20Pandit%20Gangadhar,%20I%20have%20submitted%20my%20birth%20details%20on%20your%20website%20for%20a%20consultation.%20Please%20verify."
+                    href="https://wa.me/919945601286?text=Hi%20Dr.%20Pandit%20Gangadhar,%20I%20have%20submitted%20my%20birth%20details%20on%20your%20website%20for%20a%20consultation.%20Please%20verify."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-gold-royal hover:bg-gold-warm text-dark-pure font-sans text-[10px] tracking-widest uppercase transition-all duration-300 rounded-sm font-semibold flex items-center justify-center gap-1.5 shadow-[0_0_15px_rgba(200,162,76,0.2)]"

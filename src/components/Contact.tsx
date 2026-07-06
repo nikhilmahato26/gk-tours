@@ -48,7 +48,7 @@ export default function Contact() {
 
             <p className="font-sans text-xs md:text-sm text-gold-ivory/70 leading-relaxed font-light mb-10">
               For direct bookings, queries, or quick consultations, please reach out using the official channels below.
-              Pandit Gangadhar is available for both personal in-person discussions and online video consultations.
+              Dr. Pandit Gangadhar is available for both personal in-person discussions and online video consultations.
             </p>
 
             <div className="space-y-6 mb-12">

@@ -152,8 +152,8 @@ export default function Hero() {
           >
             <div className="relative w-full h-full rounded-t-full overflow-hidden bg-dark-navy">
               <Image
-                src="/images/pandit_new.jpeg"
-                alt="Dr. Gangadhar Kotagi"
+                src="/images/pandit_latest.jpg"
+                alt="Dr. Pandit Gangadhar Kotagi"
                 fill
                 priority
                 unoptimized
